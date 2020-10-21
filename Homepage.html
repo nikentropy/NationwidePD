@@ -874,7 +874,52 @@ Webflow.push(function () {
 
 
 
+<style>
+@media screen and (max-width: 991px) {
+.form-text-field-container {    
+  clip-path: 
+ polygon(
+      0% 0%,                 /* top left */
+      100% 0%,                 /* top right */
+      100% calc(100% - 2.25vw),  /* bottom right */
+      calc(100% - 2.25vw) 100%,  /* bottom right */
+      0% 100%,               /* bottom left */
+      0 0     /* bottom left */  
+      );
+} }
+</style>
 
+
+<style>
+@media screen and (max-width: 767px) {
+.form-text-field-container {    
+  clip-path: 
+     polygon(
+      0% 0%,                 /* top left */
+      100% 0%,                 /* top right */
+      100% calc(100% - 1.75vw),  /* bottom right */
+      calc(100% - 1.75vw) 100%,  /* bottom right */
+      0% 100%,               /* bottom left */
+      0 0     /* bottom left */  
+      );
+} }
+</style>
+
+
+<style>
+@media screen and (max-width: 479px) {
+.form-text-field-container {    
+  clip-path: 
+ polygon(
+      0% 0%,                 /* top left */
+      100% 0%,                 /* top right */
+      100% calc(100% - 3.25vw),  /* bottom right */
+      calc(100% - 3.25vw) 100%,  /* bottom right */
+      0% 100%,               /* bottom left */
+      0 0     /* bottom left */  
+      );
+} }
+</style>
 
 
 
